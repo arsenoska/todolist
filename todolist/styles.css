@@ -1,0 +1,118 @@
+body {
+    font-family: 'Century Gothic';
+    background-image: url('baxk.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+
+header {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 150px 90px rgba(0, 0, 0, 0.5);
+}
+
+.add-task {
+    display: flex;
+    gap: 10px;
+}
+
+input[type="text"] {
+    font-family: 'Century Gothic';
+    flex: 1;
+    padding: 8px;
+}
+
+button {
+    font-family: 'Century Gothic';
+    background-color: #000000;
+    color: #fff;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3b3b3b;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding: 8px 0;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #FFA69E;
+}
+
+.complete-btn:hover {
+    background-color: #84DCC6;
+}
+
+.task {
+    font-family: 'Century Gothic';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.complete-btn, .delete-btn {
+    font-family: 'Century Gothic';
+    background-color: #000000;
+    color: #ffffff;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.completed span {
+    text-decoration: line-through;
+    color: #aaa;
+}
